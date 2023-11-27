@@ -4,7 +4,7 @@ RUN echo "DjangoBlog Deploy 2023.11.24 15:00"
 
 WORKDIR /home/
 
-RUN git clone https://github.com/updaun/DjangoBlog.git -b letzgorats
+RUN git clone https://github.com/letzgorats/DjangoBlog.git -b letzgorats
 
 WORKDIR /home/DjangoBlog/
 
